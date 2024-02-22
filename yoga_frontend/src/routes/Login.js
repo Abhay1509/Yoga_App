@@ -29,7 +29,7 @@ const LoginComponent = () => {
   };
 
   const handleRedirectToHome = () => {
-    navigate("/home"); // Change '/home' to the appropriate route for your home page
+    navigate("/home"); 
   };
 
   return (

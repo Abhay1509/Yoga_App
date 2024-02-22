@@ -9,7 +9,6 @@ const Filter = ({ onFilterChange }) => {
   const handleFilterChange = (e) => {
     const { name, value } = e.target;
     setSelectedFilters((prevFilters) => ({ ...prevFilters, [name]: value }));
-    // Pass the selected filters to the parent component
     onFilterChange({ ...selectedFilters, [name]: value });
   };
 
